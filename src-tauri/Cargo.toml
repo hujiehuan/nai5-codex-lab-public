@@ -1,0 +1,86 @@
+[package]
+name = "nai5-codex-lab"
+version = "0.5.16"
+description = "Mac desktop workbench for NovelAI V5 artist & prompt curation, with a reverse-prompt lab"
+authors = ["hujiehuan"]
+license = "MIT"
+edition = "2021"
+rust-version = "1.80"
+
+[lib]
+name = "nai5_codex_lab_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["protocol-asset"] }
+tauri-plugin-dialog = "2"
+tauri-plugin-opener = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rusqlite = { version = "0.32", features = ["bundled"] }
+reqwest = { version = "0.12", default-features = false, features = ["json", "stream", "rustls-tls", "gzip"] }
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "sync", "fs", "io-util", "time", "net"] }
+tokio-util = { version = "0.7", features = ["io"] }
+futures-util = "0.3"
+sha2 = "0.10"
+md-5 = "0.10"
+hex = "0.4"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "webp"] }
+keyring = { version = "3", features = ["apple-native", "linux-native"] }
+chrono = { version = "0.4", features = ["serde"] }
+thiserror = "2"
+anyhow = "1"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["json", "env-filter"] }
+tracing-appender = "0.2"
+uuid = { version = "1", features = ["v4"] }
+base64 = "0.22"
+parking_lot = "0.12"
+regex = "1"
+unicode-normalization = "0.1"
+# CLIP ViT-B/32 图像塔；macOS 额外启用 Metal，其他平台保留 CPU。
+candle-core = "0.11"
+candle-nn = "0.11"
+candle-transformers = "0.11"
+half = "2"
+ort = { version = "=2.0.0-rc.10", default-features = false, features = ["load-dynamic", "ndarray"] }
+csv = "1"
+flate2 = "1"
+tar = "0.4"
+libloading = "0.8"
+
+[target.'cfg(target_os = "macos")'.dependencies]
+candle-core = { version = "0.11", features = ["metal"] }
+candle-nn = { version = "0.11", features = ["metal"] }
+candle-transformers = { version = "0.11", features = ["metal"] }
+objc2 = "0.6"
+objc2-metal = "0.3.2"
+
+# tauri dev 仍保留应用调试信息；优化推理与图片预处理的热路径。
+[profile.dev.package.candle-core]
+opt-level = 3
+[profile.dev.package.candle-nn]
+opt-level = 3
+[profile.dev.package.candle-transformers]
+opt-level = 3
+[profile.dev.package.gemm]
+opt-level = 3
+[profile.dev.package.gemm-common]
+opt-level = 3
+[profile.dev.package.gemm-f32]
+opt-level = 3
+[profile.dev.package.image]
+opt-level = 3
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "s"
+panic = "abort"
+strip = true
+
+[dev-dependencies]
+tempfile = "3"

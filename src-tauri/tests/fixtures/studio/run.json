@@ -1,0 +1,303 @@
+{
+  "run_id": "e057054bf6d04cc8a1ba55eab6dcc56b",
+  "plan_id": "c671495398ae41ea8f20d77e58dc93e0",
+  "request_id": "39390ab9-2dc8-4031-a466-65ef51d09bb7",
+  "mode": "draw",
+  "plan": {
+    "plan_id": "c671495398ae41ea8f20d77e58dc93e0",
+    "created_at": "2026-09-19T04:33:00Z",
+    "mode": "draw",
+    "plans": [
+      {
+        "plan_id": "350a49a4c6324a189eb92d2e09ba5c81",
+        "parent_plan_id": null,
+        "created_at": "2026-09-19T04:32:58Z",
+        "character": "vera (sample series)",
+        "requirements": "在沙滩上跳舞，日落，全身入镜",
+        "provider_id": "synthetic/creative",
+        "skill_version": "studio:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "concept": "近浪侧视：低镜头沿泡沫看全身舞步",
+        "prompt": "artist:synthetic_style, vera (sample series), beach, dancing, sunset, full body, low angle, side view, close ocean waves, sparkling foam, windblown hair, best quality",
+        "negative": "bad, cropped feet",
+        "artist": "artist:synthetic_style",
+        "artist_source": "pool",
+        "character_prompts": [
+          {
+            "prompt": "vera (sample series), dancing, full body",
+            "negative_prompt": "cropped feet",
+            "position": "A3"
+          }
+        ],
+        "reference_ids": [
+          "reference-0",
+          "reference-1",
+          "reference-2",
+          "reference-3",
+          "reference-4",
+          "reference-5",
+          "reference-6",
+          "reference-7",
+          "reference-8",
+          "reference-9",
+          "reference-10",
+          "reference-11"
+        ],
+        "reference_mode": "all",
+        "used_reference_ids": [
+          "reference-0"
+        ],
+        "requirement_checks": [
+          {
+            "requirement": "在沙滩上跳舞，日落，全身入镜",
+            "evidence": "beach, dancing, sunset, full body"
+          }
+        ],
+        "warnings": [],
+        "model": "nai-diffusion-5-full",
+        "size": "832x1216",
+        "steps": 23,
+        "orientation": "portrait",
+        "orientation_source": "user",
+        "parameters": {
+          "scale": 5.0,
+          "cfg": 0.0,
+          "sampler": "k_euler_ancestral",
+          "noise_schedule": "karras",
+          "other": "0"
+        },
+        "free_only": true,
+        "llm_raw": "synthetic raw model response"
+      },
+      {
+        "plan_id": "fe54ab29aa344f899107261b7c555b58",
+        "parent_plan_id": null,
+        "created_at": "2026-09-19T04:32:59Z",
+        "character": "vera (sample series)",
+        "requirements": "在沙滩上跳舞，日落，全身入镜",
+        "provider_id": "synthetic/creative",
+        "skill_version": "studio:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "concept": "远岸俯瞰：舞者与长影构成沙丘上的对角线",
+        "prompt": "artist:synthetic_style, vera (sample series), beach, dancing, sunset, full body, high angle, aerial view, wide shot, sand dunes, long shadow, diagonal composition, best quality",
+        "negative": "bad, close-up",
+        "artist": "artist:synthetic_style",
+        "artist_source": "pool",
+        "character_prompts": [
+          {
+            "prompt": "vera (sample series), dancing, full body",
+            "negative_prompt": "close-up",
+            "position": "D4"
+          }
+        ],
+        "reference_ids": [
+          "reference-0",
+          "reference-1",
+          "reference-2",
+          "reference-3",
+          "reference-4",
+          "reference-5",
+          "reference-6",
+          "reference-7",
+          "reference-8",
+          "reference-9",
+          "reference-10",
+          "reference-11"
+        ],
+        "reference_mode": "all",
+        "used_reference_ids": [
+          "reference-1"
+        ],
+        "requirement_checks": [
+          {
+            "requirement": "在沙滩上跳舞，日落，全身入镜",
+            "evidence": "beach, dancing, sunset, full body"
+          }
+        ],
+        "warnings": [],
+        "model": "nai-diffusion-5-full",
+        "size": "832x1216",
+        "steps": 23,
+        "orientation": "portrait",
+        "orientation_source": "user",
+        "parameters": {
+          "scale": 5.0,
+          "cfg": 0.0,
+          "sampler": "k_euler_ancestral",
+          "noise_schedule": "karras",
+          "other": "0"
+        },
+        "free_only": true,
+        "llm_raw": "synthetic raw model response"
+      },
+      {
+        "plan_id": "7021d1ef69274733ba7910adc0500686",
+        "parent_plan_id": null,
+        "created_at": "2026-09-19T04:33:00Z",
+        "character": "vera (sample series)",
+        "requirements": "在沙滩上跳舞，日落，全身入镜",
+        "provider_id": "synthetic/creative",
+        "skill_version": "studio:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "concept": "棕榈框景：从树后望向码头边旋转的舞者",
+        "prompt": "artist:synthetic_style, vera (sample series), beach, dancing, sunset, full body, through palm leaves, pier in background, backlighting, spinning, layered depth, best quality",
+        "negative": "bad, flat lighting",
+        "artist": "artist:synthetic_style",
+        "artist_source": "pool",
+        "character_prompts": [
+          {
+            "prompt": "vera (sample series), dancing, full body",
+            "negative_prompt": "flat lighting",
+            "position": "B2"
+          }
+        ],
+        "reference_ids": [
+          "reference-0",
+          "reference-1",
+          "reference-2",
+          "reference-3",
+          "reference-4",
+          "reference-5",
+          "reference-6",
+          "reference-7",
+          "reference-8",
+          "reference-9",
+          "reference-10",
+          "reference-11"
+        ],
+        "reference_mode": "all",
+        "used_reference_ids": [
+          "reference-2"
+        ],
+        "requirement_checks": [
+          {
+            "requirement": "在沙滩上跳舞，日落，全身入镜",
+            "evidence": "beach, dancing, sunset, full body"
+          }
+        ],
+        "warnings": [],
+        "model": "nai-diffusion-5-full",
+        "size": "832x1216",
+        "steps": 23,
+        "orientation": "portrait",
+        "orientation_source": "user",
+        "parameters": {
+          "scale": 5.0,
+          "cfg": 0.0,
+          "sampler": "k_euler_ancestral",
+          "noise_schedule": "karras",
+          "other": "0"
+        },
+        "free_only": true,
+        "llm_raw": "synthetic raw model response"
+      }
+    ],
+    "settings": {
+      "provider_id": "synthetic/creative",
+      "character": "vera (sample series)",
+      "characters": [],
+      "requirements": "在沙滩上跳舞，日落，全身入镜",
+      "count": 3,
+      "orientation": "portrait",
+      "reference_mode": "all",
+      "reference_decisions": "include",
+      "skill_bundles": [],
+      "score_provider_ids": [
+        "synthetic/creative"
+      ],
+      "jpeg": {
+        "quality": 88
+      },
+      "experiment_id": "2aa4761a-0320-498a-a21c-e7c03fd1e0b4",
+      "artist": "artist:synthetic_style",
+      "artist_source": "pool"
+    },
+    "warnings": []
+  },
+  "status": "done",
+  "created_at": "2026-09-19T04:33:00Z",
+  "finished_at": "2026-09-19T04:33:01Z",
+  "images": [
+    {
+      "idx": 0,
+      "plan_id": "350a49a4c6324a189eb92d2e09ba5c81",
+      "seed": 10,
+      "status": "done",
+      "file": "e057054bf6d04cc8a1ba55eab6dcc56b_0.png",
+      "error": null,
+      "score": null,
+      "notes": [
+        "synthetic/creative: Synthetic scoring failure"
+      ],
+      "judges": [
+        {
+          "provider_id": "synthetic/creative",
+          "score": null,
+          "error": "Synthetic scoring failure",
+          "latency_ms": 15
+        }
+      ],
+      "account_index": 1,
+      "anlas_before": 1000,
+      "anlas_after": 1000,
+      "anlas_delta": 0,
+      "stamina_before": 98,
+      "stamina_after": 97
+    },
+    {
+      "idx": 1,
+      "plan_id": "fe54ab29aa344f899107261b7c555b58",
+      "seed": 11,
+      "status": "done",
+      "file": "e057054bf6d04cc8a1ba55eab6dcc56b_1.png",
+      "error": null,
+      "score": null,
+      "notes": [
+        "synthetic/creative: Synthetic scoring failure"
+      ],
+      "judges": [
+        {
+          "provider_id": "synthetic/creative",
+          "score": null,
+          "error": "Synthetic scoring failure",
+          "latency_ms": 0
+        }
+      ],
+      "account_index": 1,
+      "anlas_before": 1000,
+      "anlas_after": 1000,
+      "anlas_delta": 0,
+      "stamina_before": 98,
+      "stamina_after": 97
+    },
+    {
+      "idx": 2,
+      "plan_id": "7021d1ef69274733ba7910adc0500686",
+      "seed": 12,
+      "status": "done",
+      "file": "e057054bf6d04cc8a1ba55eab6dcc56b_2.png",
+      "error": null,
+      "score": null,
+      "notes": [
+        "synthetic/creative: Synthetic scoring failure"
+      ],
+      "judges": [
+        {
+          "provider_id": "synthetic/creative",
+          "score": null,
+          "error": "Synthetic scoring failure",
+          "latency_ms": 0
+        }
+      ],
+      "account_index": 1,
+      "anlas_before": 1000,
+      "anlas_after": 1000,
+      "anlas_delta": 0,
+      "stamina_before": 98,
+      "stamina_after": 97
+    }
+  ],
+  "error": null,
+  "free_only": true,
+  "anlas_spent": 0,
+  "warnings": [],
+  "cancel_requested": false,
+  "task_id": "20260919123300-bwux6d"
+}

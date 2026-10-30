@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "providers": [
+    "synthetic/creative"
+  ],
+  "characters": [
+    "vera (sample series)"
+  ],
+  "free_sizes": [
+    {
+      "id": "portrait",
+      "width": 832,
+      "height": 1216
+    },
+    {
+      "id": "landscape",
+      "width": 1216,
+      "height": 832
+    },
+    {
+      "id": "square",
+      "width": 1024,
+      "height": 1024
+    }
+  ],
+  "model": "nai-diffusion-5-full",
+  "steps": 23,
+  "available": true,
+  "free_only": true,
+  "reason": null,
+  "defaults": {
+    "draw_provider_id": "synthetic/creative",
+    "reverse_provider_id": "synthetic/creative",
+    "score_provider_ids": [],
+    "style_review_provider_id": ""
+  },
+  "templates": {
+    "reverse": "synthetic template",
+    "reverse_separate": "synthetic template",
+    "draw_brief": "synthetic template",
+    "multi_brief": "synthetic template"
+  }
+}

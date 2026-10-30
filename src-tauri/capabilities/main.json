@@ -1,0 +1,11 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main",
+  "description": "主窗口：核心能力、文件对话框、外部链接。自定义命令默认对主窗口开放（未配置 AppManifest 收紧，v0.2 再做）。",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "dialog:default",
+    "opener:allow-open-url"
+  ]
+}

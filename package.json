@@ -1,0 +1,44 @@
+{
+  "name": "nai5-codex-lab",
+  "private": true,
+  "version": "0.5.16",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "typecheck": "vue-tsc --noEmit",
+    "test": "vitest run",
+    "dev:mock": "vite --mode mock",
+    "smoke": "node scripts/smoke.mjs",
+    "check:ui": "node scripts/audit-ui.mjs",
+    "test:browser": "node scripts/probe-library.mjs && node scripts/smoke.mjs && node scripts/probe-studio.mjs",
+    "test:studio": "node scripts/probe-studio.mjs",
+    "test:studio-drop": "node scripts/probe-studio-drop.mjs",
+    "test:updater": "node scripts/probe-updater.mjs",
+    "test:studio-image": "node scripts/probe-studio-image.mjs",
+    "test:studio-references": "node scripts/probe-studio-reference-images.mjs",
+    "test:studio-skills": "node scripts/probe-studio-skills.mjs"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-dialog": "^2",
+    "@tauri-apps/plugin-opener": "^2",
+    "naive-ui": "^2.43.1",
+    "pinia": "^3",
+    "vue": "^3.5",
+    "vue-router": "^4"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "@types/node": "^22.20.1",
+    "@vitejs/plugin-vue": "^5",
+    "prettier": "^3.6.2",
+    "puppeteer-core": "^25.10.0",
+    "typescript": "^5",
+    "vite": "^6",
+    "vitest": "^3",
+    "vue-tsc": "^2"
+  }
+}

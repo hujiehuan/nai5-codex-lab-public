@@ -1,0 +1,15 @@
+{
+  "provider_id": "synthetic/creative",
+  "text": "{\"reference_id\": \"a\", \"ranking\": [{\"rank\": 1, \"image_id\": \"b\", \"similarity\": 91, \"reason\": \"Synthetic linework match\"}]}",
+  "latency_ms": 14,
+  "reference_id": "a",
+  "ranking": [
+    {
+      "rank": 1,
+      "image_id": "b",
+      "similarity": 91,
+      "reason": "Synthetic linework match"
+    }
+  ],
+  "pairs": []
+}

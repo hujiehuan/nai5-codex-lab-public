@@ -1,0 +1,146 @@
+{
+ "id": "artist_nai5_personal",
+ "type": "string",
+ "title": "示例画师词典",
+ "version": "2026.9.7",
+ "author": "作者甲 / 作者乙 / 作者丙",
+ "entryCount": 3,
+ "imagedCount": 3,
+ "hasOriginal": true,
+ "cover": "artist_nai5_personal_demo_0001.png",
+ "tree": [
+  {
+   "name": "单画师词典",
+   "count": 2,
+   "children": [
+    {
+     "name": "作者甲(无原图)",
+     "count": 2,
+     "children": [
+      {
+       "name": "单画师画风参考",
+       "count": 2,
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "画风组词典",
+   "count": 1,
+   "children": [
+    {
+     "name": "作者丙 V5画风组合 Ver_1.0",
+     "count": 1,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "updateFilters": [
+  {
+   "id": "2026.8.25",
+   "label": "8.25更新"
+  },
+  {
+   "id": "2026.9.5",
+   "label": "9.5更新"
+  },
+  {
+   "id": "2026.9.6",
+   "label": "9.6更新"
+  },
+  {
+   "id": "2026.9.7",
+   "label": "9.7更新",
+   "latest": true
+  }
+ ],
+ "entries": [
+  {
+   "title": "inkwell",
+   "path": [
+    "单画师词典",
+    "作者甲(无原图)",
+    "单画师画风参考"
+   ],
+   "tags": "artist:inkwell",
+   "note": "元数据：png",
+   "rating": "safe",
+   "isNew": true,
+   "id": "artist_nai5_personal_demo_0001",
+   "image": "artist_nai5_personal_demo_0001.png",
+   "imageWidth": 491,
+   "imageHeight": 491,
+   "original": "artist_nai5_personal_demo_0001.png",
+   "images": [
+    {
+     "path": "artist_nai5_personal_demo_0001.png",
+     "original": "artist_nai5_personal_demo_0001.png"
+    }
+   ],
+   "assetRev": "28620c7a6fe3f640",
+   "updateBatches": [
+    "2026.8.25",
+    "2026.9.7"
+   ]
+  },
+  {
+   "title": "作者丙 V5画风 001",
+   "path": [
+    "画风组词典",
+    "作者丙 V5画风组合 Ver_1.0"
+   ],
+   "tags": "<artist>\n0.7::artist:mo_lantern153 ::, 1::artist:hollow_(mint046)::\n</artist>,\n\n<style>\n2::chibi::, year 2026, -3::artist collaboration::\n</style>",
+   "negative": "lowres, bad quality",
+   "note": "参数：Steps: 28\n元数据：NovelAI",
+   "rating": "safe",
+   "isNew": false,
+   "id": "artist_nai5_personal_combo_v1_0001",
+   "image": "artist_nai5_personal_combo_v1_0001.jpg",
+   "imageWidth": 753,
+   "imageHeight": 1100,
+   "original": "artist_nai5_personal_combo_v1_0001.png",
+   "images": [
+    {
+     "path": "artist_nai5_personal_combo_v1_0001.jpg",
+     "original": "artist_nai5_personal_combo_v1_0001.png",
+     "rawTag": "solo, smile"
+    }
+   ],
+   "assetRev": "f1a2b3c4d5e6f708",
+   "updateBatches": [
+    "2026.9.5",
+    "2026.9.6"
+   ]
+  },
+  {
+   "title": "ponzu(catponz)",
+   "path": [
+    "单画师词典",
+    "作者甲(无原图)",
+    "单画师画风参考"
+   ],
+   "tags": "artist:ponzu(catponz)",
+   "note": "元数据：png",
+   "rating": "safe",
+   "isNew": true,
+   "id": "artist_nai5_personal_demo_0003",
+   "image": "artist_nai5_personal_demo_0003.png",
+   "imageWidth": 491,
+   "imageHeight": 491,
+   "original": "artist_nai5_personal_demo_0003.png",
+   "images": [
+    {
+     "path": "artist_nai5_personal_demo_0003.png",
+     "original": "artist_nai5_personal_demo_0003.png"
+    }
+   ],
+   "assetRev": "aaaa0000bbbb1111",
+   "updateBatches": [
+    "2026.9.7"
+   ]
+  }
+ ]
+}

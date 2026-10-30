@@ -1,0 +1,12 @@
+# 角色别名 → Danbooru 风格角色标签（合成示例表）。
+# 反推评测把右侧标签当作角色名：真值里命中的角色标签不计入分母（同括号型 `name (series)`）。
+# 格式：中文名或别名 = 角色标签；一行一个，# 开头为注释。按自己的素材增删即可。
+
+阿莉亚 = aria (sample series)
+露米 = lumi (sample series)
+薇拉 = vera (sample series)
+艾尔 = elle (sample series)
+安娜 = anna (sample series)
+雪莉 = cherie (sample series)
+桃乃 = momono (sample series)
+示例主角 = sample heroine
