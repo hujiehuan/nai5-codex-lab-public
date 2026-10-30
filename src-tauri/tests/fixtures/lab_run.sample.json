@@ -1,0 +1,105 @@
+{
+ "run_id": "20260907_014328_draw_495a",
+ "mode": "draw",
+ "request": {
+  "mode": "draw",
+  "text": "艾尔 风格=水彩",
+  "entry_id": null,
+  "scope": [
+   [
+    "示例甲 · N5社区图包",
+    "社区整理"
+   ],
+   [
+    "示例甲 · N5社区图包",
+    "社区整理",
+    "海边"
+   ]
+  ],
+  "artist_ratio": 0.5,
+  "count": 2,
+  "score": true,
+  "seed": 123456
+ },
+ "status": "done",
+ "created_at": "2026-09-06T17:43:28Z",
+ "finished_at": "2026-09-06T17:43:28Z",
+ "stamina_before": 144.0,
+ "stamina_after": 144.0,
+ "images": [
+  {
+   "idx": 0,
+   "character": "elle (sample series)",
+   "pack_entry_id": "p_4",
+   "pack_title": "社区精选 004",
+   "pack_path": [
+    "示例甲 · N5社区图包",
+    "社区整理",
+    "海边"
+   ],
+   "tags_raw": "1.2::artist:quillmark::, beach, sunset, umbrella, vera (sample series), 1girl",
+   "tags_used": "beach, sunset, umbrella",
+   "dropped": [
+    "1.2::artist:quillmark::",
+    "vera (sample series)",
+    "1girl"
+   ],
+   "extra_tags": null,
+   "prompt": "elle (sample series), 1girl, solo, beach, sunset, umbrella, amazing quality, very aesthetic, absurdres",
+   "negative": "lowres, bad anatomy, bad hands, text, watermark, 2girls, multiple girls",
+   "artist": "artist:inkwell, yellow background, colorful background",
+   "artist_source": "style",
+   "size": "832x1216",
+   "seed": 123456,
+   "model": "nai-diffusion-5-full",
+   "prose": false,
+   "status": "done",
+   "file": "lab_draw_20260907_014328_1.png",
+   "error": null,
+   "score": 7.5,
+   "notes": [
+    "judge-a:7.5",
+    "judge-b:7.5"
+   ],
+   "rating": "fav"
+  },
+  {
+   "idx": 1,
+   "character": "elle (sample series)",
+   "pack_entry_id": "p_4",
+   "pack_title": "社区精选 004",
+   "pack_path": [
+    "示例甲 · N5社区图包",
+    "社区整理",
+    "海边"
+   ],
+   "tags_raw": "1.2::artist:quillmark::, beach, sunset, umbrella, vera (sample series), 1girl",
+   "tags_used": "beach, sunset, umbrella",
+   "dropped": [
+    "1.2::artist:quillmark::",
+    "vera (sample series)",
+    "1girl"
+   ],
+   "extra_tags": null,
+   "prompt": "elle (sample series), 1girl, solo, beach, sunset, umbrella, amazing quality, very aesthetic, absurdres",
+   "negative": "lowres, bad anatomy, bad hands, text, watermark, 2girls, multiple girls",
+   "artist": "artist:inkwell, yellow background, colorful background",
+   "artist_source": "style",
+   "size": "832x1216",
+   "seed": 123457,
+   "model": "nai-diffusion-5-full",
+   "prose": false,
+   "status": "done",
+   "file": "lab_draw_20260907_014328_2.png",
+   "error": null,
+   "score": 7.5,
+   "notes": [
+    "judge-a:7.5",
+    "judge-b:7.5"
+   ],
+   "rating": "dis"
+  }
+ ],
+ "error": null,
+ "plugin_version": "v1.1.0"
+}
